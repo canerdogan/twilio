@@ -1,7 +1,7 @@
 {
-    "name": "laravel-notification-channels/twilio",
+    "name": "canerdogan/twilio-notification-channel",
     "description": "A boilerplate for contributions.",
-    "homepage": "https://github.com/laravel-notification-channels/twilio",
+    "homepage": "https://github.com/canerdogan/twilio",
     "license": "MIT",
     "authors": [
         {
