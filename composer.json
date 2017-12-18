@@ -5,6 +5,12 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Can Erdogan",
+            "email": "can@canerdogan.net",
+            "homepage": "https://canerdogan.net",
+            "role": "CTO at Istanbay"
+        },
+        {
             "name": "Gregorio Hernández Caso",
             "email": "gregoriohc@gmail.com",
             "homepage": "https://github.com/gregoriohc",
@@ -38,5 +44,14 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "component": "package",
+        "frameworks": ["Laravel"],
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\Twilio\\TwilioProvider"
+            ]
+        }
     }
 }
